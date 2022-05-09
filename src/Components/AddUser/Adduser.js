@@ -19,6 +19,7 @@ const Adduser = () => {
         })
             .then(res => res.json())
             .then(data => {
+                alert('user added successfully');
                 console.log(data);
             })
     }
